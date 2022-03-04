@@ -1,0 +1,175 @@
+/*
+GroupNumber #125
+Farrell Adebo – 209664010
+Dlama Wadawasina – 169672860
+Armel Yepdieu – 219562830
+*/
+body, header, div, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+header h1, header h2 {
+    color: white;
+}
+header h1 {
+    font-size: 48px;
+}
+header h2 {
+    font-size: 36px;
+}
+header span {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 160px;
+    padding: 9px;
+    border: solid 1px white;
+}
+header span a:link, header span a:visited {
+    color: white;
+}
+
+.banner--title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+                   
+}
+header div h1 {
+    white-space: nowrap;
+}
+header div h2, header div span {
+    align-self: center;
+   
+}
+header div span a{
+     text-decoration: none;
+}
+header img {
+    width: 100% ;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+article {
+    width: 1180px;
+    margin: 0 auto ;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+.highlights {
+
+    display: flex;
+    flex-wrap: wrap
+   
+   
+}
+
+.highlights h2 {
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.highlights--container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.highlights--text {
+   padding: 0px 8px;
+   height: 190px;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+}
+.highlights--button{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding: 0 3px;
+    border-radius: 3px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+.mosaic {
+    margin-top: 20px;
+    width: 100%;
+    position: relative   ;
+}
+
+.mosaic-item {
+    margin: 0px;
+}
+.mosaic--a {
+    position: absolute;
+ }
+.mosaic--b {
+    position: absolute;
+    left: 590px;
+}
+.mosaic--c {
+    position: absolute;
+    top: 200px;
+    left: 590px;
+
+}
+
+.mosaic--d {
+    position: absolute;
+    top: 0px;
+    left: 885px;
+
+}
+.mosaic--e {
+    position: absolute;
+    top: 400px;
+
+}
+
+.mosaic--f {
+    position: absolute;
+    top: 400px;
+    left: 295px;
+}
+
+.mosaic--g {
+    position: absolute;
+    top: 400px;
+    left: 590px;
+}
+
+.mosaic--h {
+    position: absolute;
+    top: 400px;
+    left: 885px;
+}
+.mosaic--i {
+    position: absolute;
+    top: 800px;
+    left: 0px;
+}
+.mosaic--j {
+    position: absolute;
+    top: 600px;
+    left: 295px;
+}
+
+.mosaic--k {
+    position: absolute;
+    top: 800px;
+    left: 885px;
+}
