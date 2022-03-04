@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: 'Merriweather', serif; 
+}
+body {
+   font-family: 'Open Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+
+
+legend {
+   display: block;
+   text-align: center;
+   background-color: #616161 ;
+   color: white;
+   width:-webkit-fill-available;
+   padding: 8px;
+   margin-right: 3em;
+}
+.box{
+   max-width: 1%;
+}
+.heading{
+   background-color: #E0E0E0;
+}
+title {
+   display: block;
+   text-align: center;
+   background-color: #6161618a ;
+   color: black;
+   margin: 0.7em 0.12em -0.2em 0.12em;
+   padding: 0.5em;
+   font-weight: 800;
+}
+fieldset {
+   margin: 1em auto;
+   background-color: #F5F5F5;
+
+}
+div#paintingBox{
+   margin: 0.25em 0.9em;
+   background-color: #f5f5f5;
+   border: 1pt solid #616161;
+   padding: inherit;
+}
+
+div#searchBox, div#settingsBox {
+   margin: 0.25em 0.9em;
+   background-color: #E0E0E0;
+   border: 1pt solid #616161;
+   padding: inherit;
+
+}
+div#settingsBox {
+   margin-bottom: 15px;
+}
+div#searchBox { 
+   margin-top: 1em; 
+
+}
+div#artistBox { 
+   background-color: #EEEEEE;
+    
+}
+tr{
+   border-top: 1pt solid #6161618a;
+  
+}
+table thead {
+   background-color: #E0E0E0 ;
+    
+}
+
+caption {
+   background-color: #BDBDBD;
+
+}
+.a{
+   width: -webkit-fill-available;
+   table-layout: auto;
+   width: 100%;
+   border-collapse: collapse;
+  
+}
+
+td, th{
+   border: none;
+   width: 10%;
+}
+td img{
+   border: 1px solid rgba(117, 115, 115, 0.521);
+   padding: 3px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.image{
+   max-width: 1%;
+   text-align: center;
+}
+.title{
+   max-width: 7%;
+   text-align: center;
+}
+.artist{
+   max-width: 8%;
+   text-align: center;
+}
+.year{
+   text-align: center;
+   max-width: 8%;
+   padding-left: 2%;
+}
+.genre{
+   max-width: 8%;
+   text-align: center;
+}
+.actions{
+   max-width: 8%;
+   text-align: center;
+}
+.actions button{
+   border: none;
+   padding: 0;
+
+}

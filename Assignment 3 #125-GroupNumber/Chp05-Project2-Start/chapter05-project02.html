@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Chapter 5</title>
+   <link rel="stylesheet" href="chapter05-project02.css" />
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php" >
+    <fieldset>
+       <legend>Advanced Art Work Search</legend>
+
+        <div id="searchBox">
+            <input type="text" name="Search" id="Search" placeholder="Search files">
+            <label for="Search">Subject: </label>
+            <input type="radio" name="history" id="history">
+            <label for="history">History</label>
+            <input type="radio" name="person" id="person">
+            <label for="person">Person</label>
+            <input type="radio" name="landscape" id="landscape">
+            <label for="Landscape">Landscape</label>
+            <select name="genre" id="genre">
+                <option hidden>Select Genre</option>
+                <option value="Baroque">Baroque</option>
+                <option value="Renaissance">Renaissance</option>
+                <option value="Realism">Realism</option>
+            </select>
+            <button type="submit" id="filter">Filter</button>
+        </div>   
+        <div id="settingsBox">
+            <select name="actions" id="actions">
+                <option hidden value="0">Bulk Actions</option>
+                <option value="Archive">Archive</option>
+                <option value="Edit">Edit</option>
+                <option value="Delete">Delete</option>
+                <option value="Collection">Collection</option>
+            </select>
+            <button type="submit" id="apply">Apply to All</button>
+        </div>
+        <div id="paintingBox">
+         <table class="a">
+                <title>Paintings</title>
+                <tr class="heading">
+                    <th class="box"></th>
+                    <th class="image"></th>
+                    <th class="title">Title</th>
+                    <th class="artist">Artist</th>
+                    <th class="year">Year</th>
+                    <th class="genre">Genre</th>
+                    <th class="actions">Actions</th>
+                </tr>
+             <tr>
+                 <td class="box"><input type="checkbox" name="index[]" id="index[]" value="10"> </td>
+                 <td class="image"><img src="./images/05030.jpg" alt="Death of Marat"></td>
+                 <td class="title">Death of Marat</td>
+                 <td class="artist">David, Jacques, Louis</td>
+                 <td class="year">1793</td>
+                 <td class="genre">Romanticism</td>
+                 <td class="actions">
+                    <button><img src="./images/archive.png" alt=""> </button>
+                    <button><img src="./images/edit.png" alt=""></button>
+                    <button><img src="./images/delete.png" alt=""></button>
+                    <button><img src="./images/collection.png" alt=""></button>
+                 </td>     
+             </tr>
+             <tr>
+                <td class="box"><input type="checkbox" name="index[]" id="index[]" value="20"> </td>
+                <td class="image"><img src="./images/120010.jpg" alt="Portrait of Eleanor of Toledo"></td>
+                <td class="title">Portrait of Eleanor of Toledo</td>
+                <td class="artist">Bronano, Agnolo</td>
+                <td class="year">1545</td>
+                <td class="genre">Mannerism</td>
+                <td class="actions">
+                    <button><img src="./images/archive.png" alt=""> </button>
+                    <button><img src="./images/edit.png" alt=""></button>
+                    <button><img src="./images/delete.png" alt=""></button>
+                    <button><img src="./images/collection.png" alt=""></button>
+                </td>     
+            </tr>
+            <tr>
+                <td class="box"><input type="checkbox" name="index[]" id="index[]" value="30"> </td>
+                <td class="image"><img src="./images/07020.jpg" alt="Liberty Leading the People"></td>
+                <td class="title">Liberty Leading the People</td>
+                <td class="artist">Delacroix, Eugene</td>
+                <td class="year">1830</td>
+                <td class="genre">Romanticism</td>
+                <td class="actions">
+                    <button><img src="./images/archive.png" alt=""> </button>
+                    <button><img src="./images/edit.png" alt=""></button>
+                    <button><img src="./images/delete.png" alt=""></button>
+                    <button><img src="./images/collection.png" alt=""></button>
+                </td>     
+            </tr>
+            <tr>
+                <td class="box"><input type="checkbox" name="index[]" id="index[]" value="40"> </td>
+                <td class="image"><img src="./images/13030.jpg" alt="Arrangement in Grey and Black6"></td>
+                <td class="title">Arrangement in Grey and Black</td>
+                <td class="artist">Whister,James,Abbott</td>
+                <td class="year">1871</td>
+                <td class="genre">Realism</td>
+                <td class="actions">
+                    <button><img src="./images/archive.png" alt=""> </button>
+                    <button><img src="./images/edit.png" alt=""></button>
+                    <button><img src="./images/delete.png" alt=""></button>
+                    <button><img src="./images/collection.png" alt=""></button>
+                </td>     
+            </tr>
+            <tr>
+                <td class="box"><input type="checkbox" name="index[]" id="index[]" value="50"> </td>
+                <td class="image"><img src="./images/06010.jpg" alt="Mademoiselle Caroline Rivere"></td>
+                <td class="title">Mademoiselle Caroline Rivere</td>
+                <td class="artist">Ingres, Jean-Auguste</td>
+                <td class="year">1806</td>
+                <td class="genre">Neo-Classicism</td>
+                <td class="actions">
+                   <button><img src="./images/archive.png" alt=""> </button>
+                   <button><img src="./images/edit.png" alt=""></button>
+                   <button><img src="./images/delete.png" alt=""></button>
+                   <button><img src="./images/collection.png" alt=""></button>
+                </td>     
+            </tr>
+         </table>   
+        </div> 
+    </fieldset>  
+</form>
+</body>
+</html>

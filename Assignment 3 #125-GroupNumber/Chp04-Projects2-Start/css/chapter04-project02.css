@@ -1,0 +1,58 @@
+body{background-color: #ECEFF1;font-family: 'Roboto', sans-serif;}
+article {margin: 0% 10%;}
+#mainMenu{background-color: #263238;margin:0px;}
+header #mainMenu ul {display: flex;justify-content: flex-end;background-color: #263238;margin: 0% 10%;}
+header nav ul li{margin-left: 5px; list-style-type: none;margin-right: 5px; }
+li a{text-decoration: none;color:#03A9F4;}
+li a:hover{background-color: #FF3D00;color: white;}
+
+header h1{padding-left: 10%; background-image: url("../images/header-background.png"); background-repeat: repeat;}
+
+h1 span { color:  red; margin-right: 5px;}
+nav + h1 { color: white;background-color: black; height: 50px; display: flex; align-items: center;}
+#secondaryMenu {background-color: #607D8B;}
+#secondaryMenu ul {display: flex;justify-content: flex-start;margin: 0% 10%;}
+#secondaryMenu ul li a {margin-left: 0px; list-style-type: none;}
+
+#mainContact > div {display: flex; align-items: center; background-color: white; flex-direction: column; height: 170px; justify-content: center;}
+#mainContact > div img { background-color: #fff; padding: 5px; border: solid rgba(161, 156, 156, 0.466) 1px;}
+section {border: solid 2px rgba(88, 85, 85, 0.24); margin-bottom: 20px;}
+
+section > h3 { height: 50px; display: flex; align-items: center;  background-image: url("../images/header-background.png"); background-repeat: repeat;padding-left: 10px; color: white;}
+
+section >h3 + p { font-weight: bold;}
+section >h3 + p em { font-weight: normal;}
+section >h3 + p {padding: 10px ;}
+.actions ul {display: flex; flex-direction: row;list-style: none; background-color: #607D8B;}
+a[href="mailto:jacksmith@microsoft.com"] {
+    background: url(../images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+    color:#03A9F4;
+    } 
+a[href="tel:+14258828080"] {
+    background: url(../images/call.png) no-repeat 0 3px;
+    padding-left: 1em;
+    color:#03A9F4;
+    }
+
+.actions ul {padding: 7px;}    
+.actions ul li { background-color: #FF3D00;;margin: 5px;padding: 5px; border-radius: 2px;}
+.actionEdit {
+    background: url(../images/edit.png) no-repeat 0 3px;
+    padding-left: 1em;
+    color: white;
+}
+.actionFlag {
+    background: url(../images/flag.png) no-repeat 0 3px;
+    padding-left: 1em;    
+    color: white;  
+    
+}
+
+
+section figure img {width: 100%;}
+
+
+footer { background-color: #263238 ;text-decoration: none;}
+footer p { color: white;margin: 0% 10%;}
+footer p a {text-decoration: none;color:#03A9F4;}
